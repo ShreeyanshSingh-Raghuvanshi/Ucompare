@@ -1,7 +1,7 @@
 {
   "name": "ucompare-backend",
   "version": "1.0.0",
-  "description": "Backend API for Ucompare product comparison platform",
+  "description": "Backend API for Ucompare - Smart Product Comparison Platform",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -9,21 +9,24 @@
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["nodejs", "express", "mongodb", "product-comparison", "api"],
-  "author": "Your Name",
+  "keywords": ["nodejs", "express", "mongodb", "product-comparison", "api", "ecommerce", "comparison-tool"],
+  "author": "Ucompare Team",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
-    "mongoose": "^7.0.3",
+    "mongoose": "^7.5.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
+    "dotenv": "^16.3.1",
     "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^9.0.0",
-    "nodemailer": "^6.9.1",
-    "axios": "^1.3.4",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.4",
+    "axios": "^1.5.0",
     "cheerio": "^1.0.0-rc.12"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
